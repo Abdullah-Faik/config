@@ -1,0 +1,70 @@
+# Base16 Gruvbox dark, hard 256 - alacritty color config
+# Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+
+window:
+  padding:
+    x: 10
+    y: 10
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+
+
+colors:
+  # Default colors
+  primary:
+    background: '#270621'
+    foreground: '#ffe6fc'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1d2021'
+    cursor: '#d5a1cc'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '#d9092f'
+    green:   '#4dff36'
+    yellow:  '#fcf400'
+    blue:    '#008bfc'
+    magenta: '#85f1ff'
+    cyan:    '#3be5ff'
+    white:   '0xffffff'
+
+  # Bright colors
+  bright:
+    black:   '0x000000'
+    red:     '0xec7875'
+    green:   '0x61c766'
+    yellow:  '0xfdd835'
+    blue:    '0x42a5f5'
+    magenta: '0xd3869b'
+    cyan:    '0x4dd0e1'
+    white:   '0xffffff'
+
+
+font:
+  normal:
+    family: Monospace
+    style: Regular
+
+  bold:
+    family: Monospace
+    style: Bold
+
+  italic:
+    family: Monospace
+    style: Italic
+
+  bold_italic:
+    family: Monospace
+    style: Bold Italic
+
+  size: 11
+draw_bold_text_with_bright_colors: true
+
+
+
